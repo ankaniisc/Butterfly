@@ -1,0 +1,31 @@
+
+This folder contaimns all the files needed for checking the signal status onlime.
+If you are concernbed about the status of the signal you only need the "calculate baseline code", nothing else. 
+You can remove the audio files and the specific lines which are calling that files and reading, for your convenience.
+
+Things to remember for running the code successfully:
+
+Update on 11/8/2016
+
+(1) Currently the GUI takes the scalpmap from the current folder(pwd). So you can change that to plot your own specific
+channel location file.
+
+(2) You might have to change the ip (host) address in the code dependeimng upomn the system you are working on. This address
+you can find in windows machine running the command prompt using "ipconfig/all" command. Check specifically for the IPv4 address and 
+update that on the code in creating the cfg structure
+
+cfg.host='your ip address';
+cfg.port=(51244); (for the 32 bit data)
+
+(3) Currently for successfully running the code you need to add to "common programs" and "tcp_udp_1p_(64/32)" dependeing upon your machine.
+
+
+Thanks,
+Ankan Biswas
+
+9.35 PM
+11/08/2016
+
+
+
+
