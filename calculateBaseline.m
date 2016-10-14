@@ -1,10 +1,10 @@
-
+%% Ankan
 %% PLOT BASELINE RAW POWER SPECTRUM AND LOG POWERSPECTRUM.
 
 function [rawbldata,rawblpower,mLogBL,blPass,dPower] = calculateBaseline(blPass,handles)
 
 pnet('closeall') % closing all the previously opens pnets connections
-
+disp('Ankan...');
 %%
 disp('R E A D Y...');
 [ready.dat, Fready] = audioread('ready.wav');
